@@ -16,5 +16,6 @@
 
 ## Project Overview
   Pneumonia is an infection in lungs caused by bacteria, viruses or fungi. Pneumonia causes lung tissue to swell (inflammation) and can cause fluid or pus in your lungs. 
-  Bacterial pneumonia is usually more severe than viral pneumonia, which often resolves on its own.Pneumonia can affect one or both lungs.
-  We develop a deep machine learning model to detect the pneumonia in patients.
+  
+  Pneumonia is a significant public health issue that often requires timely and accurate diagnosis for effective treatment. This project aims to develop a deep learning model, specifically using Convolutional Neural 
+  Networks (CNN), to automatically detect pneumonia from chest X-ray images. The proposed model focuses on efficiently identifying pneumonia, assisting healthcare professionals in diagnosis.
