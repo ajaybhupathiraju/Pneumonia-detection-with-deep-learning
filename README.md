@@ -22,7 +22,7 @@
   Neural Networks (CNN), to automatically detect pneumonia from chest X-ray images. The proposed model focuses on efficiently identifying pneumonia, assisting healthcare professionals in diagnosis.
 
 ## Data Sources
-   Chest X-ray Images from kaggle(https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+   Chest X-ray Images from [kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 ## Tools and Frameworklib
 
