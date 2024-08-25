@@ -25,8 +25,8 @@
 
   Programming Language   : Python
   
-  Deep Learning Framework: TensorFlow and Keras
+  Deep Learning Framework: TensorFlow and Keras,Scikit-learn,Matplotlib
   
   Dataset                : Chest X-ray dataset
   
-  Tools                  : Jupyter Notebook
+  Tools                  : Jupyter Notebook / Pycharm
