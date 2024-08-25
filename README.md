@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
-- [Tools and Framework lib](#tools-framework-lib)
+- [Tools and Frameworklib](#tools-and-frameworklib)
 - [EDA](#exploratory-data-analysis)
 - [Recommendations](#recommendations)
 - [Deep Learning model](#deep-learning-model)
@@ -21,7 +21,10 @@
   Pneumonia is a significant public health issue that often requires timely and accurate diagnosis for effective treatment. This project aims to develop a deep learning model, specifically using Convolutional 
   Neural Networks (CNN), to automatically detect pneumonia from chest X-ray images. The proposed model focuses on efficiently identifying pneumonia, assisting healthcare professionals in diagnosis.
 
-## Tools and Framework lib
+## Data Sources
+   Chest X-ray Images from kaggle(https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+## Tools and Frameworklib
 
   Programming Language   : Python
   
