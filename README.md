@@ -41,8 +41,10 @@
 3. Reused transfer learning models [ which is alredy trained by large dataset ] to reduce training time and improve better performance.
 
 ## Performance metrics
+confusion_matrix, accuracy_score,roc_curve
 
 ## Loss function
+binary crossentropy
 
 ## Choosing a model
 
