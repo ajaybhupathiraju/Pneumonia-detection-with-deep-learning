@@ -1,4 +1,4 @@
-# Pneumonia detection in childrens using deep learning
+# Pneumonia detection using deep learning
 
 ## Table of Contents
 - [Project Overview](#project-overview)
