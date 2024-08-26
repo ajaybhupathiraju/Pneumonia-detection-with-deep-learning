@@ -43,7 +43,8 @@
 
 ## Choosing a model
 
-we will fit below all models and choose best fit model
+we will fit below all models and choose best fit model.
+
 GPU configuration - RTX 4060Ti 16GB with 4352 cuda cores
 
 Model                 | Train accuracy  | Test accuracy |   log_loss    |  area under curve (AUC)   |  Cross Validation  |  Hyperparameters   |
