@@ -50,13 +50,13 @@ I will fit below all models and choose best fit model.
 
 Note : GPU configuration - RTX 4060Ti 16GB with 4352 cuda cores
 
-Model                 | Train accuracy  | Test accuracy |   Train loss  | Test/Validation loss |  epochs |    Hyperparameters                      |
---------------------- | -------------   | ------------- | ------------- |  -------------       | --------|  -----------------------------          | 
+Model                  | Train accuracy  | Test accuracy |   Train loss  | Test/Validation loss |  epochs |    Hyperparameters                      |
+---------------------  | -------------   | ------------- | ------------- |  -------------       | --------|  -----------------------------          | 
 VGG16 [pre trained]    |   0.75          |   0.62        |   0.56        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
-Resnet50              |   0.74          |   0.68        |   0.57        |    0.62              |   20    |   optimizer = adam,learning_rate=0.0001 |
-MobileNet             |   0.99          |   0.62        |   0.001       |    109.1             |   10    |   optimizer = adam,learning_rate=0.0001 |
-ResNet50V2            |   0.97          |   0.62        |   0.06        |    5.03              |   10    |   optimizer = adam,learning_rate=0.0001 |
-Custom CNN VGG16      |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
+Resnet50               |   0.74          |   0.68        |   0.57        |    0.62              |   20    |   optimizer = adam,learning_rate=0.0001 |
+MobileNet              |   0.99          |   0.62        |   0.001       |    109.1             |   10    |   optimizer = adam,learning_rate=0.0001 |
+ResNet50V2             |   0.97          |   0.62        |   0.06        |    5.03              |   10    |   optimizer = adam,learning_rate=0.0001 |
+Custom CNN VGG16       |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 
 
 ## Training the model
