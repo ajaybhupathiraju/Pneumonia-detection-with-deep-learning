@@ -56,7 +56,7 @@ Model                    | Train accuracy  | Test accuracy |   Train loss  | Tes
 ------------------------ | -------------   | ------------- | ------------- |  -------------       | --------|  -----------------------------          | 
 VGG16 pretrain           |   0.75          |   0.62        |   0.56        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 Resnet50                 |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
-MobileNet                |   0.99          |   0.62        |   0.001       |    109.1             |   20    |   optimizer = adam,learning_rate=0.0001 |
+MobileNet                |   0.99          |   0.62        |   0.001       |    157               |   20    |   optimizer = adam,learning_rate=0.0001 |
 ResNet50V2               |   0.97          |   0.62        |   0.06        |    5.03              |   20    |   optimizer = adam,learning_rate=0.0001 |
 Custom CNN VGG16         |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 
