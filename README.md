@@ -50,13 +50,13 @@ I will fit below all models and choose best fit model.
 
 Note : GPU configuration - RTX 4060Ti 16GB with 4352 cuda cores
 
-Model                 | Train accuracy  | Test accuracy |   Train loss  | Test/Validation loss |area under curve (AUC)   |  epochs       |  Hyperparameters                        |
---------------------- | -------------   | ------------- | ------------- |  -------------       | ---------------------   |  -----------  | ----------------                        | 
-VGG16                 |   0.88          |   0.83        |   0.32        |                      |     0.93                |    10         |   optimizer = adam,learning_rate=0.0001 |
-Resnet50              |   0.83          |   0.81        |   0.37        |                      |     0.91                |    10         |   optimizer = adam,learning_rate=0.0001 |
-MobileNet             |   0.82          |   0.81        |   0.38        |                      |     0.9                 |    10         |   optimizer = adam,learning_rate=0.0001 |
-ResNet50V2            |   0.99          |   0.93        |   0.24        |                      |     0.95                |    10         |   optimizer = adam,learning_rate=0.0001 |
-Custom CNN            |   0.99          |   0.93        |   0.24        |                      |     0.95                |    10         |   optimizer = adam,learning_rate=0.0001 |
+Model                 | Train accuracy  | Test accuracy |   Train loss  | Test/Validation loss |area under curve (AUC)   |  epochs |  Hyperparameters                        |
+--------------------- | -------------   | ------------- | ------------- |  -------------       | ---------------------   |  -------| --------------------------------------  | 
+VGG16                 |   0.88          |   0.83        |   0.32        |                      |     0.93                |    10   |   optimizer = adam,learning_rate=0.0001 |
+Resnet50              |   0.83          |   0.81        |   0.37        |                      |     0.91                |    10   |   optimizer = adam,learning_rate=0.0001 |
+MobileNet             |   0.82          |   0.81        |   0.38        |                      |     0.9                 |    10   |   optimizer = adam,learning_rate=0.0001 |
+ResNet50V2            |   0.99          |   0.93        |   0.24        |                      |     0.95                |    10   |   optimizer = adam,learning_rate=0.0001 |
+Custom CNN            |   0.96          |   0.62        |   0.10        |    20.0              |     0.95                |    20   |   optimizer = adam,learning_rate=0.0001 |
 
 
 ## Training the model
