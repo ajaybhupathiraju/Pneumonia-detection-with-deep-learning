@@ -36,6 +36,9 @@
 ## Exploratory Data Analysis
 
 ## Assumptions
+1. Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (256 X 256).
+2. It's a huge dataset. Due to limitations of my GPU (RTX 4060Ti 16GB, 128-bit) and time constraints, I could not run algorithms at higher epochs.
+3. Reused transfer learning models [ which is alredy trained by large dataset ] to reduce training time and improve better performance.
 
 ## Performance metrics
 
