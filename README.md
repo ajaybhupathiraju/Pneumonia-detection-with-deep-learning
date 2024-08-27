@@ -48,6 +48,8 @@ binary crossentropy
 
 ## Choosing a model
 
+**Unbalanced datase**t : 90% vs 10% - **validation accuracy 62%**
+
 I will fit below all models and choose best fit model.
 
 Note : GPU configuration - RTX 4060Ti 16GB with 4352 cuda cores
@@ -60,6 +62,14 @@ MobileNet                |   0.99          |   0.62        |   0.001       |    
 ResNet50V2               |   0.97          |   0.62        |   0.06        |    5.03              |   20    |   optimizer = adam,learning_rate=0.0001 |
 Custom CNN VGG16         |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 
+**Balanced datase**t : 60% vs 40% - **validation accuracy 91%**
+Due to data unbalance we notice most of our models are overfit ( custom VGG16). To avoid overfit problem we apply tunning on 
+
+1. Balance data distribution
+2. Reduce the no of layers and no of nuerons
+3. Applied l2 regularizer
+4. Earily stoping feature
+   
 
 ## Training the model
 [**ML model code**](Pneumonia_Detection.ipynb)
