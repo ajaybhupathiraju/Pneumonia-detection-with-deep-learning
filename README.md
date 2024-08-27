@@ -89,3 +89,8 @@ Performed optimization and resolve overfitting probelm which improve accuracy 91
 ## Deployee model
 
 ## Recommendations
+Using this model improves the effectiveness of CNNs for detecting pneumonia in chest X-rays, supporting clinical diagnosis with high accuracy (91%).
+
+Note : The deep learning model's performance is evaluated by accuracy and other metrics. Further optimizations and tuning may lead to better results.
+
+
