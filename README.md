@@ -15,10 +15,7 @@
 - [Recommendations](#recommendations)
 
 ## Project Overview
-  Pneumonia is an infection in lungs caused by bacteria, viruses or fungi. Pneumonia causes lung tissue to swell (inflammation) and can cause fluid or pus in your lungs. 
-  
-  Pneumonia is a significant public health issue that often requires timely and accurate diagnosis for effective treatment. This project aims to develop a deep learning model, specifically using Convolutional 
-  Neural Networks (CNN), to automatically detect pneumonia from chest X-ray images. The proposed model focuses on efficiently identifying pneumonia, assisting healthcare professionals in diagnosis.
+Pneumonia is an infection in lungs caused by bacteria, viruses or fungi. It's a significant public health issue that often requires timely and accurate diagnosis for effective treatment. This project aims to develop a deep learning model, specifically using Convolutional Neural Networks (CNN), to automatically detect pneumonia from chest X-ray images. The proposed model focuses on efficiently identifying pneumonia, assisting healthcare professionals in diagnosis.
 
 ## Data Sources
    Chest X-ray Images from [kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
@@ -38,12 +35,12 @@
 ![alt text](images/data_distribution.jpg)
 
 ## Assumptions
-1. Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (256 X 256).
+1. Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (64 X 64) which improves train the model will be faster.
 2. It's a huge dataset. Due to limitations of my GPU (RTX 4060Ti 16GB, 128-bit) and time constraints, I could not run algorithms at higher epochs.
-3. Reused transfer learning models [ which is alredy trained by large dataset ] to reduce training time and improve better performance.
+3. Reused transfer learning models [ which is alredy trained by large dataset ] to reduce training time and compare the results.
 
 ## Performance metrics
-confusion_matrix, accuracy_score,roc_curve
+accuracy_score
 
 ## Loss function
 binary crossentropy
@@ -87,6 +84,7 @@ Performed optimization and resolve overfitting probelm which improve accuracy 91
 ![alt text](images/PredictionResults.jpg)
 
 ## Deployee model
+- deployeed into local machine using fastapi tested model
 
 ## Recommendations
 Using this model improves the effectiveness of CNNs for detecting pneumonia in chest X-rays, supporting clinical diagnosis with high accuracy (91%).
