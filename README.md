@@ -77,8 +77,8 @@ Custom CNN VGG16         |   0.88          |   0.91        |   0.29        |    
 ## Training the model
 [**ML model code**](Pneumonia_Detection.ipynb)
 
-## Making predictions
-[**ML model code**](Pneumonia_Detection.ipynb)
+## Optimized the model and predictions
+[**ML model code**](OptimizedModel.ipynb)
 
 ## Deployee model
 
