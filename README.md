@@ -79,7 +79,8 @@ Custom CNN VGG16         |   0.88          |   0.91        |   0.29        |    
 
 ## Making Predictions 
 apply optimization and resolve overfitting probelm, improve accuracy 91% <br/>
-[**ML model code**](OptimizedModel.ipynb)
+[**optimal model code**](OptimizedModel.ipynb)
+![alt text](images/test_ml_model.jpg)
 
 ## Deployee model
 
