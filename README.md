@@ -86,7 +86,7 @@ Performed optimization and resolve overfitting probelm which improve accuracy 91
 ## Deployee model
 - deployeed into local machine using fastapi tested model
 - [**app.py**](deploye/app.py) <br/>
-- [cnn_model](deploye/pneumonia.h5)
+- [**download model**](deploye/pneumonia.h5)
 - Testing using FastAPI swagger UI http://127.0.0.1:8000/docs <br/>
 - ![alt text](images/TestingModel.jpg)
 
