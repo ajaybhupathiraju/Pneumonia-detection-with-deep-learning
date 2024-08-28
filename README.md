@@ -85,6 +85,9 @@ Performed optimization and resolve overfitting probelm which improve accuracy 91
 
 ## Deployee model
 - deployeed into local machine using fastapi tested model
+- [**app.py**](deploye/app.py) <br/>
+- Testing using FastAPI swagger UI http://127.0.0.1:8000/docs <br/>
+- ![alt text](images/TestingModel.jpg)
 
 ## Recommendations
 Using this model improves the effectiveness of CNNs for detecting pneumonia in chest X-rays, supporting clinical diagnosis with high accuracy (91%).
