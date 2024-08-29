@@ -5,7 +5,7 @@
 - [Data Sources](#data-sources)
 - [Tools and Frameworklib](#tools-and-frameworklib)
 - [EDA](#exploratory-data-analysis)
-- [Assumptions](#assumptions)
+- [Data preprocessing](#datapreprocessing)
 - [Performance metrics](#performance-metrics)
 - [Loss function](#loss-function)
 - [Choosing a Model](#choosing-a-model)
@@ -35,11 +35,15 @@ Pneumonia is an infection in lungs caused by bacteria, viruses or fungi. It's a 
 ![alt text](images/data_distribution.jpg) <br/>
 ![alt text](images/Normal_vs_Pneumonia.jpg)
 
-## Assumptions
-1. Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (64 X 64) which improves train the model will be faster.
-2. It's a huge dataset. Due to limitations of my GPU (RTX 4060Ti 16GB, 128-bit) and time constraints, I could not run algorithms at higher epochs.
-3. Reused transfer learning models [ which is alredy trained by large dataset ] to reduce training time and compare the results.
+## Data preprocessing
+1. **Resizing images**    : Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (64 X 64) which improves train the model will be faster.
+2. **Normalization**      : Scaling pixel values b/w 0 to 1 to make training faster and efficient.
+3. **Data Augumentation** : Apply transformations like rotation, flipping and zooming etc artificially which increase the dataset size to avoid model overfitting.
+4. **Reused transfer**    : learning models [ which is alredy trained by large dataset ] to reduce training time and compare the results.
 
+**limitation** :
+ It's a huge dataset. Due to limitations of my GPU (RTX 4060Ti 16GB, 128-bit) and time constraints, I could not run algorithms at higher epochs.
+ 
 ## Performance metrics
 accuracy_score
 
