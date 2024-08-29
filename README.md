@@ -32,7 +32,8 @@ Pneumonia is an infection in lungs caused by bacteria, viruses or fungi. It's a 
 
 ## Exploratory Data Analysis
 
-![alt text](images/data_distribution.jpg)
+![alt text](images/data_distribution.jpg) <br/>
+![alt text](images/Normal_vs_Pneumonia.jpg)
 
 ## Assumptions
 1. Since the dataset contains x-ray images of different dimensions to make it consistent, I converted the dimensions to a standard size (64 X 64) which improves train the model will be faster.
