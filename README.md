@@ -64,7 +64,6 @@ VGG16 pretrain           |   0.75          |   0.62        |   0.56        |    
 Resnet50                 |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 MobileNet                |   0.99          |   0.62        |   0.001       |    157               |   20    |   optimizer = adam,learning_rate=0.0001 |
 ResNet50V2               |   0.97          |   0.62        |   0.06        |    5.03              |   20    |   optimizer = adam,learning_rate=0.0001 |
-Custom CNN VGG16         |   0.74          |   0.62        |   0.57        |    0.69              |   20    |   optimizer = adam,learning_rate=0.0001 |
 
 **Balanced datase**t : 60% vs 40% - **validation accuracy 91%** <br/>
 Due to data unbalance we notice most of our models are overfit ( custom VGG16). To avoid overfit problem we apply tunning on 
@@ -76,7 +75,7 @@ Due to data unbalance we notice most of our models are overfit ( custom VGG16). 
 
 Model                    | Train accuracy  | Test accuracy |   Train loss  | Test/Validation loss |  epochs |    Hyperparameters                             |
 ------------------------ | -------------   | ------------- | ------------- |  -------------       | --------|  -----------------------------                 | 
-Custom CNN VGG16         |   0.88          |   0.91        |   0.29        |    0.42              |   20    |   optimizer = adam<br/> learning_rate=0.0001<br/>no of layers:8<br/>no of nuerons:48<br/>l2 regularizer (0.01)|   
+Custom CNN               |   0.88          |   0.91        |   0.29        |    0.42              |   20    |   optimizer = adam<br/> learning_rate=0.0001<br/>no of layers:8<br/>no of nuerons:48<br/>l2 regularizer (0.01)|   
 
 ## Training the model
 [**ML model code**](Pneumonia_Detection.ipynb)
